@@ -1,0 +1,28 @@
+{
+  "name": "greenbelts",
+  "version": "0.1.0",
+  "description": "Interactive web map app to share geo-tagged content about local Austin green spaces",
+  "main": "app.js",
+  "private": true,
+  "dependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-scripts": "1.0.14"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/open-austin/GreenBelts.git"
+  },
+  "author": "Open Austin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/open-austin/GreenBelts/issues"
+  },
+  "homepage": "https://github.com/open-austin/GreenBelts#readme",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
