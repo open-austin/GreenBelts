@@ -1,0 +1,1907 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Open Greenbelt Map</name>
+    <description>Community built map of the Barton Creek Greenbelt, with entrances and main swimming holes.</description>
+    <Style id="icon-503-009D57-normal">
+      <IconStyle>
+        <color>ff579d00</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-009D57-highlight">
+      <IconStyle>
+        <color>ff579d00</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-009D57">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-009D57-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-009D57-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-009D57-nodesc-normal">
+      <IconStyle>
+        <color>ff579d00</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-503-009D57-nodesc-highlight">
+      <IconStyle>
+        <color>ff579d00</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-503-009D57-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-009D57-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-009D57-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-93D7E8-normal">
+      <IconStyle>
+        <color>ffe8d793</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-93D7E8-highlight">
+      <IconStyle>
+        <color>ffe8d793</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-93D7E8">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-93D7E8-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-93D7E8-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-93D7E8-nodesc-normal">
+      <IconStyle>
+        <color>ffe8d793</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-503-93D7E8-nodesc-highlight">
+      <IconStyle>
+        <color>ffe8d793</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-503-93D7E8-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-93D7E8-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-93D7E8-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-9FC3FF-nodesc-normal">
+      <IconStyle>
+        <color>ffffc39f</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-503-9FC3FF-nodesc-highlight">
+      <IconStyle>
+        <color>ffffc39f</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-503-9FC3FF-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-9FC3FF-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-9FC3FF-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-CDDC39-normal">
+      <IconStyle>
+        <color>ff39dccd</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-CDDC39-highlight">
+      <IconStyle>
+        <color>ff39dccd</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-CDDC39">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-CDDC39-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-CDDC39-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-CDDC39-nodesc-normal">
+      <IconStyle>
+        <color>ff39dccd</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-503-CDDC39-nodesc-highlight">
+      <IconStyle>
+        <color>ff39dccd</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-503-CDDC39-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-CDDC39-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-CDDC39-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-DB4436-nodesc-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-503-DB4436-nodesc-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-959-009D57-nodesc-normal">
+      <IconStyle>
+        <color>ff579d00</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/959-wht-circle-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-959-009D57-nodesc-highlight">
+      <IconStyle>
+        <color>ff579d00</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/959-wht-circle-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-959-009D57-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-959-009D57-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-959-009D57-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-959-3F5BA9-nodesc-normal">
+      <IconStyle>
+        <color>ffa95b3f</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/959-wht-circle-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-959-3F5BA9-nodesc-highlight">
+      <IconStyle>
+        <color>ffa95b3f</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/959-wht-circle-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-959-3F5BA9-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-959-3F5BA9-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-959-3F5BA9-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-960-009D57-nodesc-normal">
+      <IconStyle>
+        <color>ff579d00</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/960-wht-star-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-960-009D57-nodesc-highlight">
+      <IconStyle>
+        <color>ff579d00</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/960-wht-star-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-960-009D57-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-960-009D57-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-960-009D57-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-960-62AF44-nodesc-normal">
+      <IconStyle>
+        <color>ff44af62</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/960-wht-star-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-960-62AF44-nodesc-highlight">
+      <IconStyle>
+        <color>ff44af62</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/960-wht-star-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-960-62AF44-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-960-62AF44-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-960-62AF44-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-962-009D57-nodesc-normal">
+      <IconStyle>
+        <color>ff579d00</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/962-wht-diamond-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-962-009D57-nodesc-highlight">
+      <IconStyle>
+        <color>ff579d00</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/962-wht-diamond-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-962-009D57-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-962-009D57-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-962-009D57-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-962-DB4436-nodesc-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/962-wht-diamond-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-962-DB4436-nodesc-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/962-wht-diamond-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-962-DB4436-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-962-DB4436-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-962-DB4436-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-962-F4EB37-normal">
+      <IconStyle>
+        <color>ff37ebf4</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/962-wht-diamond-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-962-F4EB37-highlight">
+      <IconStyle>
+        <color>ff37ebf4</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/962-wht-diamond-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-962-F4EB37">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-962-F4EB37-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-962-F4EB37-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-962-F4EB37-nodesc-normal">
+      <IconStyle>
+        <color>ff37ebf4</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/962-wht-diamond-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-962-F4EB37-nodesc-highlight">
+      <IconStyle>
+        <color>ff37ebf4</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/962-wht-diamond-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-962-F4EB37-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-962-F4EB37-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-962-F4EB37-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-0288D1-5000-normal">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-0288D1-5000-highlight">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-0288D1-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0288D1-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0288D1-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-1200-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>1.2</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F4EB37-1200-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>1.8</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-1200">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-1200-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-1200-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-1200-nodesc-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>1.2</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-F4EB37-1200-nodesc-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>1.8</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-1200-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-1200-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-1200-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFDD5E-1200-normal">
+      <LineStyle>
+        <color>ff5eddff</color>
+        <width>1.2</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FFDD5E-1200-highlight">
+      <LineStyle>
+        <color>ff5eddff</color>
+        <width>1.8</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FFDD5E-1200">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFDD5E-1200-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFDD5E-1200-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-0BA9CC-1200-77-nodesc-normal">
+      <LineStyle>
+        <color>ffcca90b</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4dcca90b</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-0BA9CC-1200-77-nodesc-highlight">
+      <LineStyle>
+        <color>ffcca90b</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4dcca90b</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-0BA9CC-1200-77-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-0BA9CC-1200-77-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-0BA9CC-1200-77-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-0BA9CC-1401-77-nodesc-normal">
+      <LineStyle>
+        <color>ffcca90b</color>
+        <width>1.401</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4dcca90b</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-0BA9CC-1401-77-nodesc-highlight">
+      <LineStyle>
+        <color>ffcca90b</color>
+        <width>2.1015</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4dcca90b</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-0BA9CC-1401-77-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-0BA9CC-1401-77-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-0BA9CC-1401-77-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-4186F0-1200-77-nodesc-normal">
+      <LineStyle>
+        <color>fff08641</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4df08641</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-4186F0-1200-77-nodesc-highlight">
+      <LineStyle>
+        <color>fff08641</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4df08641</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-4186F0-1200-77-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-4186F0-1200-77-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-4186F0-1200-77-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-B29189-1200-128-nodesc-normal">
+      <LineStyle>
+        <color>ff8991b2</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>808991b2</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-B29189-1200-128-nodesc-highlight">
+      <LineStyle>
+        <color>ff8991b2</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>808991b2</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-B29189-1200-128-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-B29189-1200-128-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-B29189-1200-128-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Official Entrances</name>
+      <Placemark>
+        <name>Spyglass Entrance</name>
+        <description><![CDATA[Access to Campbell's Hole]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -97.7875378,30.2580503,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Barton Springs Entrance</name>
+        <description><![CDATA[Access to Campbell's Hole]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -97.7712669,30.2642242,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Barton Hills Entrance</name>
+        <description>2010 Homedale Road</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -97.784268,30.255572,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gus Fruh Entrance</name>
+        <styleUrl>#icon-503-009D57-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.795208,30.24941,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Main Entrance</name>
+        <description><![CDATA["When I first moved to Austin, I heard people talking about “the Greenbelt.” With piqued interest, I did a trusty Google search. Loop 360 is the only access point Google references. Even so, I’ll be honest: I had a strangely hard time finding this entrance because–as you pull up–it looks like you’re entering an office complex.<br><br>Remember, just turn at that light! There’s a designated parking lot with overflow parking in the office park on weekends. You’ll see the distinct Austin Parks and Recreation sign as you pull up–which all public access points have.<br><br>This access point is where you start to notice more mountain bikers, since from here the terrain is a lot more “fun.” This is also the main access point for the popular climbing wall, Seismic. I’ve climbed Seismic several times, including once in the dark. It’s pretty magical."]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -97.8007831,30.2437,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Twin Falls Entrance</name>
+        <styleUrl>#icon-503-009D57-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.809824,30.244939,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Scottish Woods Entrance</name>
+        <description>Sculpture Falls Access</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <Point>
+          <coordinates>
+            -97.8252237,30.2751231,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Violet Crown 290 Trail Head</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.8168338,30.2339389,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gus Fruh Pool</name>
+        <styleUrl>#icon-503-009D57-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.7961623,30.2477493,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>West (Mountain Biking/Running) Trail</name>
+      <Placemark>
+        <name>Track 1</name>
+        <description><![CDATA[Statistics computed from imported data<br><br>Distance: 13.3 miles]]></description>
+        <styleUrl>#line-0288D1-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -97.77741,30.26358,0
+            -97.77968,30.263,0
+            -97.78172,30.26224,0
+            -97.78371,30.26151,0
+            -97.78523,30.26103,0
+            -97.78543,30.25974,0
+            -97.78525,30.25818,0
+            -97.78658,30.25705,0
+            -97.78725,30.25772,0
+            -97.78744,30.25797,0
+            -97.78697,30.25719,0
+            -97.78707,30.25709,0
+            -97.78725,30.25702,0
+            -97.78831,30.25655,0
+            -97.78967,30.25605,0
+            -97.79095,30.25556,0
+            -97.7915,30.25522,0
+            -97.79257,30.25489,0
+            -97.79329,30.254,0
+            -97.79501,30.25362,0
+            -97.79589,30.25324,0
+            -97.79587,30.25328,0
+            -97.79623,30.2531,0
+            -97.79659,30.25137,0
+            -97.7967,30.25069,0
+            -97.7969,30.24928,0
+            -97.79663,30.24789,0
+            -97.79516,30.2465,0
+            -97.79388,30.24638,0
+            -97.79366,30.24693,0
+            -97.79234,30.24722,0
+            -97.79118,30.2468,0
+            -97.79058,30.24602,0
+            -97.79025,30.24461,0
+            -97.79143,30.24345,0
+            -97.79344,30.24318,0
+            -97.79474,30.24335,0
+            -97.79634,30.24398,0
+            -97.79843,30.24463,0
+            -97.80058,30.24493,0
+            -97.80289,30.24423,0
+            -97.80315,30.24377,0
+            -97.80392,30.24335,0
+            -97.80504,30.24278,0
+            -97.80628,30.24228,0
+            -97.80702,30.24147,0
+            -97.80767,30.24102,0
+            -97.80916,30.24036,0
+            -97.81021,30.2404,0
+            -97.81115,30.24131,0
+            -97.81075,30.24318,0
+            -97.81065,30.24462,0
+            -97.81143,30.24625,0
+            -97.81233,30.2476,0
+            -97.81248,30.2482,0
+            -97.81277,30.24915,0
+            -97.81314,30.25048,0
+            -97.81351,30.25158,0
+            -97.81415,30.25235,0
+            -97.8152,30.25308,0
+            -97.81655,30.25383,0
+            -97.81816,30.2546,0
+            -97.8194,30.25541,0
+            -97.82117,30.2566,0
+            -97.82228,30.25811,0
+            -97.82288,30.25954,0
+            -97.82307,30.26097,0
+            -97.82279,30.26284,0
+            -97.82274,30.26487,0
+            -97.82315,30.26657,0
+            -97.82383,30.26843,0
+            -97.82489,30.26981,0
+            -97.82637,30.27034,0
+            -97.82835,30.2702,0
+            -97.8291,30.27083,0
+            -97.82993,30.27072,0
+            -97.83116,30.27145,0
+            -97.8297972679138,30.2707343991405,0
+            -97.8291964530945,30.2708826549159,0
+            -97.8282523155212,30.2701413737995,0
+            -97.8260207176208,30.2702896304706,0
+            -97.8251624107361,30.27006724538,0
+            -97.8238749504089,30.2684364059891,0
+            -97.8231883049011,30.2669538012155,0
+            -97.8227591514587,30.2650263815383,0
+            -97.8227591514587,30.2630989240251,0
+            -97.8227591514587,30.2619127775193,0
+            -97.8229308128357,30.2607266166859,0
+            -97.8229308128357,30.259688714204,0
+            -97.8222441673279,30.2579835648851,0
+            -97.8212141990662,30.2565749409447,0
+            -97.8193259239197,30.2553887156416,0
+            -97.8180384635925,30.2542766164093,0
+            -97.8150343894959,30.2530162220587,0
+            -97.8138327598572,30.252052380173,0
+            -97.8132319450378,30.2512368142682,0
+            -97.8128027915955,30.2495092748114,0
+            -97.812716960907,30.248100529349,0
+            -97.8122878074646,30.2472849306386,0
+            -97.8113436698914,30.2460985931565,0
+            -97.8106570243835,30.2446897987932,0
+            -97.810742855072,30.2428360912282,0
+            -97.810914516449,30.2414272500933,0
+            -97.8104853630066,30.2403891437024,0
+            -97.809112071991,30.2404632945225,0
+            -97.8073954582214,30.240982348697,0
+            -97.8072237968445,30.2415755501112,0
+            -97.8062796592712,30.2422428974225,0
+            -97.8050780296326,30.2427619421983,0
+            -97.8037047386169,30.2432068355385,0
+            -97.8031897544861,30.2437258752233,0
+            -97.8028464317322,30.2443932079326,0
+            -97.8005290031433,30.2449122413512,0
+            -97.7984690666199,30.2444673557317,0
+            -97.7962374687195,30.244022468098,0
+            -97.7947783470154,30.243355132871,0
+            -97.7933192253113,30.2431326867884,0
+            -97.7914309501648,30.2434292814534,0
+            -97.7902293205261,30.244615651162,0
+            -97.79057264328,30.2460985931565,0
+            -97.7912592887878,30.2468400557613,0
+            -97.7922892570496,30.2478039487831,0
+            -97.7934050559998,30.2471366392367,0
+            -97.794177532196,30.2463951788698,0
+            -97.7952075004578,30.2466176175673,0
+            -97.7967524528503,30.2480263842914,0
+            -97.7967524528503,30.2496575626325,0
+            -97.7967524528503,30.2505472848586,0
+            -97.796323299408,30.2524008469507,0
+            -97.7959799766541,30.2533646854174,0
+            -97.7949500083923,30.253883671444,0
+            -97.7932333946228,30.2539578120811,0
+            -97.7927184104919,30.2552181943504,0
+            -97.7917742729187,30.2552923339802,0
+            -97.7909159660339,30.25558889194,0
+            -97.7897143363953,30.2561078662152,0
+            -97.7880835533142,30.256700976315,0
+            -97.7866244316101,30.2572199447143,0
+            -97.785336971283,30.2582578732866,0
+            -97.785336971283,30.2595923367621,0
+            -97.785165309906,30.2610750526907,0
+            -97.783534526825,30.26137159319,0
+            -97.7818179130554,30.262409477886,0
+            -97.7793288230896,30.2632249510231,0
+            -97.7776122093201,30.2635956183921,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Swimming Holes</name>
+      <Placemark>
+        <name>Twin Falls</name>
+        <styleUrl>#icon-959-009D57-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.8127557,30.2489516,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Flats</name>
+        <styleUrl>#icon-959-3F5BA9-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.7843436,30.258279,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sculpture Falls</name>
+        <styleUrl>#icon-959-009D57-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.8235216,30.2618545,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Las Mesitas</name>
+        <styleUrl>#icon-959-3F5BA9-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.7887778,30.2436389,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Las Mesitas Hole</name>
+        <styleUrl>#poly-0BA9CC-1200-77-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -97.7899075,30.2439885,0
+                -97.78965,30.2422089,0
+                -97.7884591,30.2421904,0
+                -97.7885127,30.2439885,0
+                -97.7899075,30.2439885,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Campbell's Hole]]></name>
+        <styleUrl>#icon-959-3F5BA9-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.7854722222222,30.2601388888889,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Campbell's Hole (full)]]></name>
+        <styleUrl>#poly-0BA9CC-1401-77-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -97.7856481,30.2602997,0
+                -97.785801,30.2599823,0
+                -97.7853101,30.2597576,0
+                -97.7845001,30.2593081,0
+                -97.7845323,30.2586247,0
+                -97.7853584,30.257515,0
+                -97.7838296,30.2577328,0
+                -97.7839315,30.259994,0
+                -97.7848971,30.2603785,0
+                -97.7856481,30.2602997,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Spring Bend Swimming Hole</name>
+        <styleUrl>#poly-0BA9CC-1200-77-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -97.7937913,30.2432284,0
+                -97.792697,30.2417316,0
+                -97.7913398,30.2416667,0
+                -97.7924126,30.2425379,0
+                -97.7930215,30.2432099,0
+                -97.7937913,30.2432284,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Barton Spring Pool</name>
+        <styleUrl>#poly-4186F0-1200-77-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -97.7724624,30.2640898,0
+                -97.7723712,30.2632651,0
+                -97.7692437,30.2636728,0
+                -97.7693939,30.2643817,0
+                -97.7724624,30.2640898,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Jesse's Swings]]></name>
+        <styleUrl>#icon-959-3F5BA9-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.8108636,30.2417258,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Flat Rock swimming hole</name>
+        <styleUrl>#icon-959-3F5BA9-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.8423353,30.2736213,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lost Creek Falls</name>
+        <styleUrl>#icon-959-3F5BA9-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.8315997,30.2713592,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Crumble Falls</name>
+        <styleUrl>#icon-959-3F5BA9-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.8284749,30.2699971,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Knot Falls</name>
+        <styleUrl>#icon-959-3F5BA9-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.8265974,30.270011,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Nearby Businesses</name>
+      <Placemark>
+        <name><![CDATA[Spec's Wines, Spirits, and Finer Foods]]></name>
+        <styleUrl>#icon-960-009D57-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.8183602,30.2345551,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tacodeli</name>
+        <styleUrl>#icon-960-62AF44-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.787669,30.2584308,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Torchy's Tacos]]></name>
+        <styleUrl>#icon-960-009D57-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.784284,30.241558,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wholly Cow Burgers</name>
+        <styleUrl>#icon-960-62AF44-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.7839744,30.2429041,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Barton Hills Market</name>
+        <styleUrl>#icon-960-009D57-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.7751007,30.2618559,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Papalote</name>
+        <styleUrl>#icon-960-009D57-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.7818774,30.2435063,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Points of Interest</name>
+      <Placemark>
+        <name>Boulder Field</name>
+        <styleUrl>#poly-B29189-1200-128-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -97.7950707,30.253903,0
+                -97.7931087,30.2545575,0
+                -97.7932683,30.2548112,0
+                -97.7953094,30.254137,0
+                -97.7950707,30.253903,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Cave Lookout</name>
+        <styleUrl>#icon-962-F4EB37-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.78405,30.25955,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kayak Put-In</name>
+        <styleUrl>#icon-962-F4EB37-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.8442482,30.2742393,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Glade</name>
+        <styleUrl>#icon-962-F4EB37-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.8184783,30.2548969,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Airmen's Cave]]></name>
+        <description><![CDATA[https://en.wikipedia.org/wiki/Airmen%27s_Cave<br>http://www.karstportal.org/FileStorage/Texas_Caver/1975-v20-n11.pdf]]></description>
+        <styleUrl>#icon-962-F4EB37</styleUrl>
+        <Point>
+          <coordinates>
+            -97.7915944,30.2416722,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Twin Springs</name>
+        <styleUrl>#icon-962-F4EB37-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.8232098,30.2598456,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Well</name>
+        <styleUrl>#icon-962-F4EB37-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.784549,30.261599,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Art Wall</name>
+        <styleUrl>#icon-962-F4EB37-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.802,30.2445277777778,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Open field </name>
+        <styleUrl>#icon-962-F4EB37-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.829926,30.2706597,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stone Bench</name>
+        <styleUrl>#icon-962-F4EB37-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.8298777,30.2697608,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Yellow rope swing</name>
+        <styleUrl>#icon-962-F4EB37-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.8309345,30.2699462,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Crumbled Drainage Shaft</name>
+        <description>30ft. high flood drain pipe. Much of the cement platform has eroded away and lies in ruins in the creek below. Great/dangerous spot to watch a flood from.</description>
+        <styleUrl>#icon-962-F4EB37</styleUrl>
+        <Point>
+          <coordinates>
+            -97.8416499,30.2744482,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>kick ass hammock spot!</name>
+        <styleUrl>#icon-962-F4EB37-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.8314562,30.271438,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[The "Hot Tub" ]]></name>
+        <description>Deep circular pool good for lounging</description>
+        <styleUrl>#icon-962-F4EB37</styleUrl>
+        <Point>
+          <coordinates>
+            -97.7931328,30.2429226,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mystery Trail</name>
+        <description>Possible trail to lookout point? Needs exploring</description>
+        <styleUrl>#icon-962-F4EB37</styleUrl>
+        <Point>
+          <coordinates>
+            -97.826423,30.2690613,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>western trail</name>
+        <description><![CDATA[southern access point = sculpture falls. <br>More overgrown and shady than the trail on the eastern side of the creek.]]></description>
+        <styleUrl>#line-FFDD5E-1200</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -97.8420442,30.2740046,0
+            -97.8415722,30.2738239,0
+            -97.8412074,30.2739583,0
+            -97.8406227,30.2742085,0
+            -97.8399092,30.2744262,0
+            -97.8387451,30.2745791,0
+            -97.8376669,30.2747273,0
+            -97.8365564,30.2747366,0
+            -97.8347754,30.2738008,0
+            -97.8332198,30.2720773,0
+            -97.8320718,30.2711693,0
+            -97.8312564,30.2702612,0
+            -97.8308272,30.2697238,0
+            -97.8293467,30.2696867,0
+            -97.8270721,30.2695941,0
+            -97.8242612,30.2672775,0
+            -97.8238106,30.266147,0
+            -97.8234673,30.2647014,0
+            -97.8235745,30.2628296,0
+            -97.8237677,30.2619585,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Tight trail</name>
+        <description>small, overgrown elevated trail that hugs the property line.  </description>
+        <styleUrl>#line-F4EB37-1200</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -97.842012,30.2740533,0
+            -97.8418216,30.2742293,0
+            -97.8416929,30.2744169,0
+            -97.8415802,30.2745814,0
+            -97.8414997,30.2747366,0
+            -97.8414032,30.2748154,0
+            -97.8412503,30.2748617,0
+            -97.8411001,30.274915,0
+            -97.8409955,30.275003,0
+            -97.8408962,30.2751536,0
+            -97.8405958,30.2755288,0
+            -97.8404939,30.2756863,0
+            -97.8403947,30.2756747,0
+            -97.8402847,30.2755381,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Walkable Stretch of Creek</name>
+        <styleUrl>#line-F4EB37-1200-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -97.8401881,30.2755196,0
+            -97.8398663,30.2756585,0
+            -97.8390563,30.2756632,0
+            -97.8385305,30.2755381,0
+            -97.8380102,30.2755473,0
+            -97.837345,30.2753945,0
+            -97.8367227,30.275047,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Hill of Life</name>
+        <styleUrl>#icon-962-009D57-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.8252625,30.2746334,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Western Areas to Check Out</name>
+      <Placemark>
+        <name>Point 1</name>
+        <styleUrl>#icon-503-CDDC39-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.8502035,30.2967956,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Point 2</name>
+        <styleUrl>#icon-503-CDDC39-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.8442383,30.274227,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Point 3</name>
+        <styleUrl>#icon-503-CDDC39-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.9268932,30.2976107,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Point 4</name>
+        <styleUrl>#icon-503-CDDC39-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.9926395,30.2694829,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Barton Creek Habitat Preserve</name>
+        <styleUrl>#icon-503-CDDC39-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.8993756,30.2837109,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Point 6</name>
+        <description>Potential unofficial entrance</description>
+        <styleUrl>#icon-503-CDDC39</styleUrl>
+        <Point>
+          <coordinates>
+            -97.8493023,30.2818709,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Point 7</name>
+        <description>potential unofficial entrance</description>
+        <styleUrl>#icon-503-CDDC39</styleUrl>
+        <Point>
+          <coordinates>
+            -97.8494069,30.2843191,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Point 8</name>
+        <description>potential unofficial entrance. Private land?</description>
+        <styleUrl>#icon-503-CDDC39</styleUrl>
+        <Point>
+          <coordinates>
+            -97.8472692,30.2857829,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Unofficial Entrances</name>
+      <Placemark>
+        <name>3198 Crestvale Dr</name>
+        <styleUrl>#icon-503-93D7E8-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.7869085,30.2453505,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bluffview Entrance</name>
+        <styleUrl>#icon-503-93D7E8-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.7884166666666,30.2476944444444,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>4414 Dudley Dr</name>
+        <styleUrl>#icon-503-9FC3FF-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.806785,30.236374,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Retreat at Barton</name>
+        <styleUrl>#icon-503-9FC3FF-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.7905277777778,30.2398055555556,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lost Creek Country Club Entrance</name>
+        <styleUrl>#icon-503-93D7E8-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.8442155,30.2742525,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hill of Life entrance</name>
+        <styleUrl>#icon-503-93D7E8-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.8252,30.2752184,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Jesse's Shortcut]]></name>
+        <description>Unofficial trail entryway directly under Mopac bridge. Descends on the SE side of the bridge (just to the right of the in-progress bike bridge). Cross first set of rapids to access trail.</description>
+        <styleUrl>#icon-503-93D7E8</styleUrl>
+        <Point>
+          <coordinates>
+            -97.8100187,30.2429782,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Climbing Walls</name>
+      <Placemark>
+        <name>Seismic Wall</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.8003174,30.2454405,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gus Fruh Boulder</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.7968222,30.2488448,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>?</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.810142,30.2394005,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sculpture Bouldering</name>
+        <description>Great bouldering problems at overhang of sculpture falls</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -97.8240037,30.2614025,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>New Wall</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.7946281,30.2542783,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>?</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.7893925,30.2466578,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>5.8 Sanctuary</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.79745,30.2451333333333,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Beehive Wall</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.80895,30.2398,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gus Fruh</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.7969833333333,30.2485833333333,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kingdom of Ging</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.7969666666667,30.2492333333333,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Guide's Wall]]></name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.7969387,30.2494954,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Choss Cave</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.7962333333334,30.2514666666667,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Cliff Jumps</name>
+      <Placemark>
+        <name>Mesita Cliff Jump</name>
+        <styleUrl>#icon-962-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.7893333,30.2424722,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Campbell's Hole Jump]]></name>
+        <styleUrl>#icon-962-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.785,30.26,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Untitled layer</name>
+    </Folder>
+  </Document>
+</kml>
