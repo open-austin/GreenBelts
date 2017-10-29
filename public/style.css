@@ -1,3 +1,15 @@
+
+html {
+  position: relative;
+  min-height: 100vh;
+}
+
+main {
+  margin: 30px auto 30px auto;
+  padding: 20px;
+  height: auto;
+}
+
 /* ========================= NAVBAR ========================== */
 .navBar {
   width: 100 vw;
@@ -26,8 +38,8 @@
 .card {
   background: #fff;
   border-radius: 2px;
-  height: auto;
   width: 80vw;
+  height: auto;
   margin: 20px auto 0 auto;
   padding: 10px;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
@@ -37,3 +49,42 @@
 .card:hover {
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 } */
+
+/* =============================== MAP ========================= */
+#map {
+  margin: auto;
+  height: 400px;
+  width: 90%;
+}
+
+/* =============================== FOOTER ========================= */
+
+footer {
+    width: 100 vw;
+    height: auto;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px 0 20px;
+    text-align: center;
+}
+
+footer #contact {
+  flex: 1 1 30%;
+}
+
+footer #contribute {
+  flex: 1 1 30%;
+}
+
+footer #openAustin {
+  flex: 1 1 30%;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}

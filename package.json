@@ -5,11 +5,16 @@
   "main": "app.js",
   "private": true,
   "dependencies": {
-    "dotenv": "^4.0.0",
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "cookie-sessions": "0.0.2",
     "ejs": "^2.5.7",
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0",
-    "react-scripts": "1.0.14"
+    "express": "^4.16.2",
+    "knex": "^0.13.0",
+    "method-override": "^2.3.10",
+    "pg": "^7.3.0",
+    "dotenv": "^4.0.0"
   },
   "repository": {
     "type": "git",
@@ -21,10 +26,5 @@
     "url": "https://github.com/open-austin/GreenBelts/issues"
   },
   "homepage": "https://github.com/open-austin/GreenBelts#readme",
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  }
+  "scripts": {}
 }
