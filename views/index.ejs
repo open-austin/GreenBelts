@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<%- include('partials/header') %>
+  <title>ATX TrailMix</title>
+</head>
+
+
+<body>
+
+
+
+  <%- include('partials/nav') %>
+
+  <main class='card'>
+    <div id='map'></div>
+  </main>
+
+  <%- include('partials/footer') %>
+
+  <script>
+  function initMap() {
+     let origin = {lat:30.270, lng: -97.740};
+     let map = new google.maps.Map(document.getElementById('map'), {
+       zoom: 10,
+      center: origin
+    });
+   }
+   </script>
+
+  <script async defer
+   src='https://maps.googleapis.com/maps/api/js?key=<%=key%>&callback=initMap'></script>
+</body>
+</html>
