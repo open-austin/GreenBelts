@@ -1,0 +1,39 @@
+/* ========================= NAVBAR ========================== */
+.navBar {
+  width: 100 vw;
+  height: 50px;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px 0 20px;
+}
+
+.navBar h1 {
+  color: white;
+  font-family: Candal;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+
+/* ============================ CARD ========================== */
+
+.card {
+  background: #fff;
+  border-radius: 2px;
+  height: auto;
+  width: 80vw;
+  margin: 20px auto 0 auto;
+  padding: 10px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+/*
+.card:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+} */
