@@ -25,10 +25,5 @@
   "bugs": {
     "url": "https://github.com/open-austin/GreenBelts/issues"
   },
-<<<<<<< HEAD
-  "homepage": "https://github.com/open-austin/GreenBelts#readme",
-  "scripts": {}
-=======
   "homepage": "https://github.com/open-austin/GreenBelts#readme"
->>>>>>> googleMaps
 }
