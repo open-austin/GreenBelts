@@ -8,6 +8,8 @@ main {
   margin: 30px auto 30px auto;
   padding: 20px;
   height: auto;
+  flex: 1 0 auto; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
+
 }
 
 /* ========================= NAVBAR ========================== */
@@ -56,15 +58,19 @@ main {
 
  footer {
      width: 100 vw;
-     height: auto;
+     //height: auto; 
+     height: 30vw;
      background-color: black;
+     bottom: 0;
      color: white;
+     position: absolute;
      display: flex;
      flex-flow: row wrap;
      justify-content: center;
      align-items: center;
      padding: 0 20px 0 20px;
      text-align: center;
+     flex-shrink: 0; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
  }
 
  footer #contact {
