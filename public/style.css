@@ -13,7 +13,7 @@ main {
 /* ========================= NAVBAR ========================== */
 .navBar {
   width: 100 vw;
-  height: 50px;
+  height: 40px; //might be better to change it per viewport but this was requested
   background-color: black;
   color: white;
   display: flex;
@@ -21,6 +21,7 @@ main {
   justify-content: space-between;
   align-items: center;
   padding: 0 20px 0 20px;
+  overflow-x: hidden;
 }
 
 .navBar h1 {
