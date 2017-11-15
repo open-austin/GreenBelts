@@ -1,0 +1,14 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Name": "Point 1", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ -97.8502035, 30.2967956, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Point 2", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ -97.8442383, 30.274227, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Point 3", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ -97.9268932, 30.2976107, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Point 4", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ -97.9926395, 30.2694829, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Barton Creek Habitat Preserve", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ -97.8993756, 30.2837109, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Point 6", "description": "Potential unofficial entrance", "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ -97.8493023, 30.2818709, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Point 7", "description": "potential unofficial entrance", "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ -97.8494069, 30.2843191, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Point 8", "description": "potential unofficial entrance. Private land?", "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ -97.8472692, 30.2857829, 0.0 ] } }
+]
+}

@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Name": "3198 Crestvale Dr", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ -97.7869085, 30.2453505, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Bluffview Entrance", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ -97.788416666666606, 30.247694444444399, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "4414 Dudley Dr", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ -97.806785, 30.236374, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Retreat at Barton", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ -97.790527777777797, 30.239805555555598, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Lost Creek Country Club Entrance", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ -97.8442155, 30.2742525, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Hill of Life entrance", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ -97.8252, 30.2752184, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Jesse's Shortcut", "description": "Unofficial trail entryway directly under Mopac bridge. Descends on the SE side of the bridge (just to the right of the in-progress bike bridge). Cross first set of rapids to access trail.", "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ -97.8100187, 30.2429782, 0.0 ] } }
+]
+}

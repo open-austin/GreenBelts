@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Name": "Spec's Wines, Spirits, and Finer Foods", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ -97.8183602, 30.2345551, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Tacodeli", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ -97.787669, 30.2584308, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Torchy's Tacos", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ -97.784284, 30.241558, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Wholly Cow Burgers", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ -97.7839744, 30.2429041, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Barton Hills Market", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ -97.7751007, 30.2618559, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Papalote", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ -97.7818774, 30.2435063, 0.0 ] } }
+]
+}
