@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Name": "Boulder Field", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -97.7950707, 30.253903, 0.0 ], [ -97.7931087, 30.2545575, 0.0 ], [ -97.7932683, 30.2548112, 0.0 ], [ -97.7953094, 30.254137, 0.0 ], [ -97.7950707, 30.253903, 0.0 ] ] ] } }
+]
+}

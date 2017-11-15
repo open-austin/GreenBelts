@@ -1,0 +1,16 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Name": "Twin Falls", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ -97.8127557, 30.2489516, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "The Flats", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ -97.7843436, 30.258279, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Sculpture Falls", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ -97.8235216, 30.2618545, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Las Mesitas", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ -97.7887778, 30.2436389, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Campbell's Hole", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ -97.785472222222197, 30.2601388888889, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Jesse's Swings", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ -97.8108636, 30.2417258, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Flat Rock swimming hole", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ -97.8423353, 30.2736213, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Lost Creek Falls", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ -97.8315997, 30.2713592, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Crumble Falls", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ -97.8284749, 30.2699971, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Knot Falls", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ -97.8265974, 30.270011, 0.0 ] } }
+]
+}
